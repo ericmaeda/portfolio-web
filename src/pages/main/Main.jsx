@@ -8,11 +8,13 @@ import Projects from './components/Projects'
 const Main = () => {
     return (
         <>
-        <Navbar/>
-        <Header/>
-        <Projects/>
-        <Education/>
-        <Contact/>
+        <div className='ubuntu-medium py-5'>
+            <Navbar/>
+            <Header/>
+            <Projects/>
+            <Education/>
+            <Contact/>
+        </div>
         </>
     )
 }
