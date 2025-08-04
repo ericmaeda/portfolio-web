@@ -13,7 +13,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div id='project-boxes' className='grid grid-cols-3 gap-5 mx-auto'>
+            <div id='project-boxes' className='2xl:grid 2xl:grid-cols-3 xl:grid-rows-1 gap-5 mx-auto max-w-7xl'>
                 <div className='border-2 rounded-3xl backdrop-blur'>
                     <div className='p-10'>
                         <img src="/eric-site.png" alt="" className='mx-auto w-80 border-1 rounded-2xl'/>
@@ -26,7 +26,7 @@ const Projects = () => {
                                 <img src="/mongo-db.png" alt="" className='w-5 h-15'/>
                                 <img src="/expressjs-icon.svg" alt="" className='bg-white rounded-full p-2 w-12'/>
                                 <img src="/react-2.svg" alt="" className='w-12'/>
-                                <img src="/nodejsLight.svg" alt="" className='w-30'/>
+                                <img src="/jsIconWhite.svg" alt="" className='w-12'/>
                                 <img src="/tailwindcss.svg" alt="" className='w-12'/>
                             </div>
                             <br />
@@ -37,7 +37,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='border-2 rounded-3xl backdrop-blur'>
+                <div className='border-2 rounded-3xl backdrop-blur 2xl:mt-0 mt-5'>
                     <div className='p-10'>
                         <img src="/bem-chatting.png" alt="" className='mx-auto w-80 border-1 rounded-2xl'/>
                     </div>
@@ -49,7 +49,7 @@ const Projects = () => {
                                 <img src="/mongo-db.png" alt="" className='w-5 h-15'/>
                                 <img src="/expressjs-icon.svg" alt="" className='bg-white rounded-full p-2 w-12'/>
                                 <img src="/react-2.svg" alt="" className='w-12'/>
-                                <img src="/nodejsLight.svg" alt="" className='w-30'/>
+                                <img src="/jsIconWhite.svg" alt="" className='w-12'/>
                                 <img src="/tailwindcss.svg" alt="" className='w-12'/>
                             </div>
                             <br />
