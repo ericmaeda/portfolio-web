@@ -46,7 +46,7 @@ const Header = () => {
                     <a href="https://github.com/ericmaeda" target="_blank" className='cursor-pointer hover:text-gray-300 transition duration-200'>
                         <FontAwesomeIcon icon={ faGithub }/>
                     </a>
-                    <a href="https://linkedin.com/in/ericmaeda27" target="_blank" className='cursor-pointer hover:text-gray-300 transition duration-200'>
+                    <a href="https://linkedin.com/in/ericmaedas27" target="_blank" className='cursor-pointer hover:text-gray-300 transition duration-200'>
                         <FontAwesomeIcon icon={ faLinkedin }/>
                     </a>
                     <a href="mailto:ericopbm@gmail.com" className='cursor-pointer hover:text-gray-300 transition duration-200'>
