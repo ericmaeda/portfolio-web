@@ -1,5 +1,4 @@
 import React from 'react'
-import Contact from './components/Contact'
 import Education from './components/Education'
 import Header from './components/Header'
 import Navbar from './components/Navbar'
@@ -20,9 +19,6 @@ const Main = () => {
             </div>        
             <div id='education'>
                 <Education/>
-            </div>
-            <div id='contacts'>
-                <Contact/>
             </div>
         </div>
         </>

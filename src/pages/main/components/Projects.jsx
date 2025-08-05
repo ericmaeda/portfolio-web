@@ -5,8 +5,8 @@ import { faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 const Projects = () => {
     return (
         <>
-        <div id='Projects' className='flex flex-col w-full text-white'>
-            <div className='w-full px-8 py-20 mt-5 m-auto'>
+        <div id='projects' className='flex flex-col w-full text-white'>
+            <div className='w-full px-8 py-20 m-auto'>
                 <div className='flex justify-center'>
                     <div className='inline-block text-3xl border-2 backdrop-blur rounded-full p-5 px-10'>
                     My Projects
@@ -20,13 +20,10 @@ const Projects = () => {
                     </div>
                     <div className='flex flex-col text-center max-w-md'>
                         <div className='text-2xl'>Portfolio Website</div>
-                        <div className='p-5'>My portfolio website. Contains my profile, projects, education, etc. Crafted with MERN stacks, decorated with TailwindCSS.</div>
+                        <div className='p-5'>My portfolio website. Contains my profile, projects, education, etc. Crafted with ReactJS, decorated with TailwindCSS.</div>
                         <div className='flex flex-col'>
                             <div className='flex justify-center border-1 rounded-xl gap-5 items-center p-3 mx-auto'>
-                                <img src="/mongo-db.png" alt="" className='w-5 h-15'/>
-                                <img src="/expressjs-icon.svg" alt="" className='bg-white rounded-full p-2 w-12'/>
                                 <img src="/react-2.svg" alt="" className='w-12'/>
-                                <img src="/jsIconWhite.svg" alt="" className='w-12'/>
                                 <img src="/tailwindcss.svg" alt="" className='w-12'/>
                             </div>
                             <br />

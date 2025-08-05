@@ -1,15 +1,34 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
+
+    const [greet, setGreet] = useState('')
+
+    useEffect(() => {
+        const hour = new Date().getHours()
+        if (hour >= 5 && hour < 12) {
+            setGreet('Good Morning!')
+        }
+        else if (hour >= 12 && hour < 17) {
+            setGreet('Good Afternoon!')
+        }
+        else if (hour >= 17 && hour < 20) {
+            setGreet('Good Evening!')
+        }
+        else {
+            setGreet('Good Night!')
+        }
+    })
+
     return (
         <>
-        <div class='lg:flex lg:justify-between md:flex md:flex-col md:mt-0 mx-auto'>
+        <div id='landing-page' class='lg:flex lg:justify-between md:flex md:flex-col md:mt-0 mx-auto'>
             <div className='md:flex md:flex-col xl:max-w-2xl lg:max-w-md md:max-w-3/5 max-w-4/5 xl:mx-35 lg:mx-20 xl:my-12 lg:my-auto md:mx-auto mx-auto mt-10 xl:p-10 lg:p-10 md:p-12 p-10
              text-white backdrop-blur border-2 rounded-3xl'>
-                <h1 className='md:text-2xl'>Good Morning!</h1>
+                <h1 className='md:text-2xl'>{ greet }</h1>
                 <br />
                 <h1 className='md:text-6xl text-3xl'>I'm Erico Mahendra</h1>
                 <br />
