@@ -17,7 +17,7 @@ function App() {
       setBackground('/bg-images/bg-morning-2.jpg')
     }
     else if (hour >= 10 && hour < 15) {
-      setBackground('/bg-images/bg-afternoon-1.jpeg')
+      setBackground('/bg-images/bg-afternoon-2.jpeg')
     }
     else if (hour >= 15 && hour < 17) {
       setBackground('/bg-images/bg-evening.png')
