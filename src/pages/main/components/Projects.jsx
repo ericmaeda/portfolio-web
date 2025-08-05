@@ -29,7 +29,7 @@ const Projects = () => {
                             <br />
                             <div className='flex justify-center gap-24 items-center pb-6 mx-auto'>
                                 <a href="" target='_blank' className='border-1 rounded-full p-3'>Demo</a>
-                                <a href="" target='_blank' className='border-1 rounded-full p-3'>GitHub Repo</a>
+                                <a href="https://github.com/ericmaeda/portfolio-web" target='_blank' className='border-1 rounded-full p-3'>GitHub Repo</a>
                             </div>
                         </div>
                     </div>
