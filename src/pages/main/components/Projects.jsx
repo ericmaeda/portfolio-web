@@ -13,7 +13,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div id='project-boxes' className='2xl:grid 2xl:grid-cols-3 xl:grid-rows-1 gap-5 mx-auto max-w-7xl'>
+            <div id='project-boxes' className='2xl:flex 2xl:justify-center xl:flex xl:justify-center gap-5 mx-auto max-w-7xl'>
                 <div className='border-2 rounded-3xl backdrop-blur'>
                     <div className='p-10'>
                         <img src="/eric-site.png" alt="" className='mx-auto w-80 border-1 rounded-2xl'/>
